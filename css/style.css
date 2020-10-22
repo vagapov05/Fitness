@@ -1,0 +1,352 @@
+@import "fonts.css";
+
+body{
+    font-family: "OpenSans";
+    background: #fd634e;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+header h1{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+header h1 span{
+    color: #a2ca28;
+}
+header p{
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 190px;
+}
+header p span{
+    color: #fd634e;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+.nav-link{
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #a2ca28;
+}
+
+.green{
+    background: #a2ca28;
+}
+
+.uslugi{
+    margin: 100px 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.uslugi img{
+    width: 47px;
+    height: 44px;
+}
+.uslugi h3{
+    font-size: 24px;
+    color: white;
+}
+.uslugi p{
+    font-size: 14px;
+    color: white;
+}
+.uslugi a{
+    font-size: 14px;
+    color: white;
+}
+
+.col-sm-6,
+.col-lg-4,
+.col-lg-8{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.bg-white{
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+.bg-white p{
+    color: #fd634e;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.bg-white h2{
+    color: #a2ca28;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.bg-white span{
+    color: #656e74;
+    font-size: 14px;
+}
+.bg-white a{
+    color: #a2ca28;
+    font-size: 14px;
+}
+
+.bg-green{
+    background: #a2ca28;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    padding: 90px;
+}
+.bg-green h2{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.bg-green p{
+    color: white;
+    font-size: 13px;
+}
+
+.bg-green2{
+    background: #a2ca28;
+    width: 395px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 36px;
+}
+.bg-green2 h3{
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+}
+.bg-green2 h2{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.bg-green2 p{
+    font-size: 14px;
+    color: white;
+}
+
+.bg-orange{
+    background: #e6a727;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+.bg-orange p{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.bg-orange h2{
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.bg-orange span{
+    color: #656e74;
+    font-size: 14px;
+}
+
+.fitness1{
+    min-height: 340px;
+    background: url('../images/Fitness_1.jpg') no-repeat;
+    position: relative;
+}
+.fitness1 a{
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.fitness1 a:hover{
+    color: #fd634e;
+}
+.fitness1 span{
+    font-size: 12px;
+    color: white;
+}
+.fitness1 img{
+    margin: 0 0 10px 10px;
+}
+
+.fitness2{
+    min-height: 340px;
+    background: url('../images/Fitness_2.jpg') no-repeat;
+}
+.fitness2 a{
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.fitness2 a:hover{
+    color: #fd634e;
+}
+.fitness2 span{
+    font-size: 12px;
+    color: white;
+}
+.fitness2 img{
+    margin: 0 0 10px 10px;
+}
+
+.fitness3{
+    min-height: 340px;
+    background: url('../images/Fitness_3.jpg') no-repeat;
+}
+
+.fitness4{
+    min-height: 340px;
+    background: url('../images/Fitness_4.jpg') no-repeat;
+    position: relative;
+}
+.fitness4 a{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.fitness4 span{
+    color: white;
+}
+.fitness4 a:hover{
+    color: #fd634e;
+}
+.fitness4 p{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.fitness4 img{
+    margin-left: 10px;
+}
+
+.fitness5{
+    min-height: 340px;
+    background: url('../images/Fitness_5.jpg') no-repeat;
+}
+
+.fitness6{
+    width: 395px;
+    min-height: 340px;
+    background: url('../images/Fitness_6.jpg') no-repeat;
+}
+
+.fitness7{
+    min-height: 340px;
+    background: url('../images/Fitness_7.jpg') no-repeat;
+}
+
+.footer-top{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/Footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer-top h1{
+    font-size: 45px;
+    color: white;
+}
+.footer-top p{
+    font-size: 16px;
+    color: white;
+}
+
+.footer-bottom{
+    width: 100%;
+    min-height: 700px;
+    background: #0d1119;
+    padding: 65px;
+}
+.footer-bottom h4{
+    color: white;
+    font-size: 15px;
+}
+.footer-bottom p{
+    color: #656e74;
+    font-size: 14px;
+}
+.footer-bottom ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.footer-bottom button{
+    background: #a2ca28;
+    border: none;
+}
+.footer-bottom button:hover{
+    background: #a2ca28;
+}
+.btn .fa{
+    opacity: 0;
+    margin-left: 5px;
+}
+.btn:hover .fa{
+    opacity: 1;
+    margin-left: 5px;
+}
